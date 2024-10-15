@@ -1,4 +1,4 @@
-/* General Style Settings */
+/* Genel Stil Ayarları */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@ header {
 
 .banner {
     width: 100%;
-    max-width: 560px; /* Banner size reduced by 30% (800px -> 560px) */
+    max-width: 560px; /* Banner boyutu %30 küçültüldü (800px -> 560px) */
     height: auto;
 }
 
@@ -41,11 +41,11 @@ header {
 .content {
     text-align: center;
     padding: 0 20px;
-    margin-bottom: 80px; /* Increased bottom margin to extend the page */
+    margin-bottom: 80px; /* Sayfayı uzatmak için alt marj artırıldı */
 }
 
 .logo {
-    width: 250px; /* Increased logo size */
+    width: 250px; /* Logo boyutu artırıldı */
     border: 5px solid #000000;
     border-radius: 0;
     margin-bottom: 10px;
@@ -64,13 +64,13 @@ h2 {
 }
 
 .chain-logo {
-    width: 50px; /* Increased chain logo size */
+    width: 50px; /* Chain logo boyutu artırıldı */
     height: auto;
     margin-right: 10px;
 }
 
 p {
-    font-size: 18px; /* Increased text size */
+    font-size: 18px; /* Yazı boyutu artırıldı */
     line-height: 1.6;
 }
 
@@ -87,7 +87,7 @@ strong {
 }
 
 .social-links img {
-    width: 60px; /* Enlarged social media icons */
+    width: 60px; /* Sosyal medya ikonları büyütüldü */
     height: auto;
 }
 
@@ -110,15 +110,20 @@ a:hover {
     border: none;
     height: 1px;
     background-color: #ccc;
-    margin: 60px 0; /* Increased spacing around the divider */
+    margin: 60px 0; /* Ayırıcı çizginin çevresindeki boşluk artırıldı */
 }
 
-/* Bridge Section Styles */
+/* Bridge Bölümü İçin Stil */
 #bridge {
     background-color: #f9f9f9;
     padding: 40px 20px;
     border-radius: 10px;
     margin: 40px 0;
+}
+
+#bridge .logo {
+    width: 200px; /* Bridge logo boyutu */
+    margin-bottom: 20px;
 }
 
 #bridge h2 {
@@ -136,14 +141,14 @@ a:hover {
 .highlight-address {
     font-size: 20px;
     font-weight: bold;
-    color: #D32F2F; /* Highlighted text color */
-    background-color: #FFE0E0; /* Background color */
+    color: #D32F2F; /* Vurgulu yazı rengi */
+    background-color: #FFE0E0; /* Arka plan rengi */
     padding: 10px;
     display: inline-block;
     border-radius: 5px;
 }
 
-/* Responsive Design */
+/* Mobil Uyumlu Tasarım */
 @media (max-width: 600px) {
     .banner {
         max-width: 100%;
@@ -178,7 +183,8 @@ a:hover {
         font-size: 20px;
     }
 
-    /* Bridge Section Responsive Design */
+    /* Bridge Bölümü Mobil Uyum */
+    
     #bridge h2 {
         font-size: 22px;
     }
