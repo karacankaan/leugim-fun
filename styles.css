@@ -181,10 +181,13 @@ a:hover {
     .button-links {
         flex-direction: column;
         gap: 10px;
+        align-items: center; /* Center the buttons horizontally */
     }
     .button-link {
-        width: 80%;
-        max-width: none; /* Remove max-width to allow full-width buttons */
+        width: 60%; /* Reduce button width */
+        max-width: 200px; /* Set a reasonable max-width */
+        padding: 8px 16px; /* Reduce padding */
+        font-size: 14px; /* Reduce font size */
     }
     h2 {
         font-size: 20px;
@@ -235,4 +238,3 @@ a:hover {
         padding: 6px;
     }
 }
-
