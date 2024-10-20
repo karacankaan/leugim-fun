@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     color: #1E1E1E;
     background-color: #FFFFFF;
-    text-align: center; /* Center text by default */
+    text-align: center;
 }
 
 header {
@@ -80,7 +80,7 @@ h2 {
 p {
     font-size: 18px;
     line-height: 1.6;
-    text-align: center; /* Center text paragraphs */
+    text-align: center;
 }
 
 strong {
@@ -227,3 +227,4 @@ a:hover {
         padding: 6px;
     }
 }
+
