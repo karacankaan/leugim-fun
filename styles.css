@@ -159,8 +159,8 @@ a:hover {
 .embed-container {
     position: relative;
     width: 100%;
-    max-width: 800px; /* Set a maximum width */
-    height: 450px; /* Set a fixed height */
+    max-width: 500px; /* Reduced width */
+    height: 700px; /* Increased height */
     margin: 40px auto; /* Center the embed and add top margin */
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -216,9 +216,9 @@ a:hover {
         font-size: 18px;
         padding: 8px;
     }
-    /* Adjust embed heights for mobile */
+    /* Adjust embed sizes for mobile */
     .embed-container {
-        height: 300px;
+        height: 600px;
         max-width: 90%;
     }
 }
@@ -252,9 +252,9 @@ a:hover {
         font-size: 16px;
         padding: 6px;
     }
-    /* Adjust embed heights for small screens */
+    /* Adjust embed sizes for small screens */
     .embed-container {
-        height: 250px;
+        height: 500px;
         max-width: 100%;
     }
 }
