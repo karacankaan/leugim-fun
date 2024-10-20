@@ -19,6 +19,7 @@ header {
     margin: 0 auto;
 }
 
+/* Button Links Container */
 .button-links {
     display: flex;
     justify-content: center;
@@ -35,9 +36,10 @@ header {
     border-radius: 5px;
     font-size: 16px;
     transition: background-color 0.3s ease;
-    flex: 1 1 auto; /* Allow buttons to grow and shrink */
+    /* Removed flex: 1 1 auto; to prevent buttons from stretching */
     max-width: 150px; /* Limit maximum width for better alignment */
     text-align: center;
+    width: auto; /* Allow buttons to size based on content */
 }
 
 .button-link:hover {
@@ -182,7 +184,7 @@ a:hover {
     }
     .button-link {
         width: 80%;
-        max-width: none;
+        max-width: none; /* Remove max-width to allow full-width buttons */
     }
     h2 {
         font-size: 20px;
