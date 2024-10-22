@@ -159,9 +159,9 @@ a:hover {
 .embed-container {
     position: relative;
     width: 100%;
-    max-width: 500px;
-    height: 700px;
-    margin: 40px auto;
+    max-width: 500px; /* Reduced width for minimal appearance */
+    height: 700px; /* Increased height for better visibility */
+    margin: 40px auto; /* Center the embed and add top margin */
     border: 1px solid #ccc;
     border-radius: 10px;
     overflow: hidden;
@@ -186,10 +186,16 @@ a:hover {
 }
 
 .dex-links a img {
-    width: 100px;
+    width: 40px; /* Uniform small size for all DEX logos */
     height: auto;
+    transition: transform 0.3s ease;
 }
 
+.dex-links a img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
     .banner {
         max-width: 80%;
@@ -205,7 +211,7 @@ a:hover {
     }
     .social-links img,
     .dex-links a img {
-        width: 50px;
+        width: 40px; /* Maintain uniform size on smaller screens */
     }
     .button-links {
         flex-direction: column;
@@ -252,7 +258,7 @@ a:hover {
     }
     .social-links img,
     .dex-links a img {
-        width: 40px;
+        width: 35px; /* Further reduce size for very small screens */
     }
     h2 {
         font-size: 18px;
