@@ -186,7 +186,7 @@ a:hover {
 }
 
 .dex-links a img {
-    width: 50px; /* Uniform small size for all DEX logos */
+    width: 50px; /* Increased size from 40px to 50px */
     height: auto;
     transition: transform 0.3s ease;
 }
@@ -211,7 +211,7 @@ a:hover {
     }
     .social-links img,
     .dex-links a img {
-        width: 40px; /* Maintain uniform size on smaller screens */
+        width: 45px; /* Adjusted from 50px to 45px for smaller screens */
     }
     .button-links {
         flex-direction: column;
@@ -258,7 +258,7 @@ a:hover {
     }
     .social-links img,
     .dex-links a img {
-        width: 35px; /* Further reduce size for very small screens */
+        width: 40px; /* Further reduced size for very small screens */
     }
     h2 {
         font-size: 18px;
