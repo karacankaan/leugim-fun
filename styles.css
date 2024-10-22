@@ -159,9 +159,9 @@ a:hover {
 .embed-container {
     position: relative;
     width: 100%;
-    max-width: 500px; /* Reduced width */
-    height: 700px; /* Increased height */
-    margin: 40px auto; /* Center the embed and add top margin */
+    max-width: 500px;
+    height: 700px;
+    margin: 40px auto;
     border: 1px solid #ccc;
     border-radius: 10px;
     overflow: hidden;
@@ -176,7 +176,20 @@ a:hover {
     border: 0;
 }
 
-/* Responsive Design */
+/* DEX Links Styles */
+.dex-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.dex-links a img {
+    width: 100px;
+    height: auto;
+}
+
 @media (max-width: 768px) {
     .banner {
         max-width: 80%;
@@ -190,7 +203,8 @@ a:hover {
     p {
         font-size: 16px;
     }
-    .social-links img {
+    .social-links img,
+    .dex-links a img {
         width: 50px;
     }
     .button-links {
@@ -236,7 +250,8 @@ a:hover {
     p {
         font-size: 14px;
     }
-    .social-links img {
+    .social-links img,
+    .dex-links a img {
         width: 40px;
     }
     h2 {
@@ -258,3 +273,4 @@ a:hover {
         max-width: 100%;
     }
 }
+
