@@ -186,7 +186,7 @@ a:hover {
 }
 
 .dex-links a img {
-    width: 40px; /* Uniform small size for all DEX logos */
+    width: 50px; /* Uniform small size for all DEX logos */
     height: auto;
     transition: transform 0.3s ease;
 }
