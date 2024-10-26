@@ -211,6 +211,11 @@ a:hover {
     margin-bottom: 20px;
 }
 
+/* Socials Section Styles */
+.social-links {
+    /* No changes needed since it's already styled */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .banner {
@@ -309,3 +314,4 @@ a:hover {
         font-size: 18px;
     }
 }
+
