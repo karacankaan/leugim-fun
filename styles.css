@@ -115,6 +115,21 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.terms-conditions {
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.terms-conditions a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+.terms-conditions a:hover {
+    text-decoration: underline;
+}
+
 .divider {
     border: none;
     height: 1px;
@@ -211,10 +226,29 @@ a:hover {
     margin-bottom: 20px;
 }
 
-/* Socials Section Styles */
-.social-links {
-    /* No changes needed since it's already styled */
+/* Free Miguel NFT Section Styles */
+#nft h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333333;
 }
+
+#nft p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Optional: Style for NFT Image Placeholder */
+/*
+.nft-image {
+    width: 200px;
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+*/
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -247,10 +281,12 @@ a:hover {
     h2 {
         font-size: 20px;
     }
-    #bridge h2 {
+    #bridge h2,
+    #nft h2 {
         font-size: 22px;
     }
-    #bridge p {
+    #bridge p,
+    #nft p {
         font-size: 16px;
     }
     .highlight-address {
@@ -268,6 +304,9 @@ a:hover {
     }
     #community h2 {
         font-size: 20px;
+    }
+    .terms-conditions {
+        font-size: 14px;
     }
 }
 
@@ -291,10 +330,12 @@ a:hover {
     h2 {
         font-size: 18px;
     }
-    #bridge h2 {
+    #bridge h2,
+    #nft h2 {
         font-size: 20px;
     }
-    #bridge p {
+    #bridge p,
+    #nft p {
         font-size: 14px;
     }
     .highlight-address {
@@ -312,6 +353,9 @@ a:hover {
     }
     #community h2 {
         font-size: 18px;
+    }
+    .terms-conditions {
+        font-size: 12px;
     }
 }
 
